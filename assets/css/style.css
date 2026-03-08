@@ -601,12 +601,14 @@ section {
   background-image: linear-gradient(to right, rgb(49, 65, 207), rgb(33, 118, 230));
 }
 
-@media (min-width: 576px) {
-.skills .progress .skill {
-  font-weight: 400;
+@media (max-width: 576px) {
+  .skills .progress .skill {
+    font-weight: 500;
+    font-size: 10px;
 
+  }
 }
-}
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
